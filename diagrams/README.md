@@ -12,11 +12,11 @@ For project related diagrams.
 
 <img width="615" alt="Fig2-TokenRefresh" src="https://raw.githubusercontent.com/mitmedialab/CoreID/master/diagrams/Fig2-TokenRefresh.png">
 
-* Authorization Flow 
+* Authorization Explicit Grant Flow 
 
 <img width="615" alt="Fig3-AuthFlow" src="https://raw.githubusercontent.com/mitmedialab/CoreID/master/diagrams/Fig3-AuthFlow.png">
 
-* Implicit Flow 
+* Implicit Authorization Flow 
 
 <img width="615" alt="Fig4-ImplicitFlow.png" src="https://raw.githubusercontent.com/mitmedialab/CoreID/master/diagrams/Fig4-ImplicitFlow.png">
 	
