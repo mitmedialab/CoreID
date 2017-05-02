@@ -4,6 +4,8 @@ For project related diagrams.
 
 **Mapping Blockchain-Enabled Identity to Roles and Flows the Common Broader Context of the Open Web**
 
+* [https://tools.ietf.org/html/rfc6749](https://tools.ietf.org/html/rfc6749)
+
 * High Level Protocol Flow
 
 <img width="615" alt="fig1-highlevelprototcolflow" src="https://raw.githubusercontent.com/mitmedialab/CoreID/master/diagrams/Fig1-HighLevelPrototcolFlow.png">
