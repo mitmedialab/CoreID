@@ -1,4 +1,4 @@
-For project related diagrams.
+# Diagraming Roles & Relationships
 
 ## Swimlane Diagrams 
 
@@ -8,6 +8,24 @@ So - we'd expect something including roles like:
 * User (client or credit union member etc); 
 * Third party (or merchant or seller, etc); 
 * App provider (lawyer or credit union etc)
+
+### Example Roles of Legal/Business Entities
+
+The following exampes illustrate how to map functions, actions and other events to business and/or legal roles of "entities" for this type of diagram: 
+
+* Roles: Consultant; Accountant; Payroll, etc from [http://www.agilemodeling.com/style/activityDiagram.htm](http://www.agilemodeling.com/style/activityDiagram.htm):
+
+<img src="https://github.com/mitmedialab/CoreID/blob/master/diagrams/expenses.png">
+
+* Roles: Customer; Sales; Legal; etc from [http://www.modernanalyst.com/Careers/InterviewQuestions/tabid/128/ID/1804/What-is-a-Swimlane-Diagram.aspx](http://www.modernanalyst.com/Careers/InterviewQuestions/tabid/128/ID/1804/What-is-a-Swimlane-Diagram.aspx)
+
+<img src="https://github.com/mitmedialab/CoreID/blob/master/diagrams/sales.png">
+
+*  Roles: Faculty Advisor, Student; Admin; etc, from [https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760](https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760): 
+
+* Roles: Faculty Advisor, Student; Admin; etc, from [https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760](https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760): 
+
+<img src="https://github.com/mitmedialab/CoreID/blob/master/diagrams/registration.png">
 
 The following excerpt is an example of how Massachusetts Legal Hackers has specifically attempted to apply business/legal role based designations to a scenarior of a few use cases involving:
 
@@ -22,6 +40,7 @@ The following excerpt is an example of how Massachusetts Legal Hackers has speci
 > 3. The Transacting Third Party user, in their role as a party who legally countersigns contracts and is a relying party on authorizations as a counterparty to transactions conducted by or for the Individual Principal.
 
 > In the use case, the Fiduciary Agent will presumably be a US federally chartered, regulated and insured credit union providing services to and acting on behalf of an Individual Principal who is a Member of the Credit Union.  The Ethereum Stone Paper initial code base assumes the fiduciary is a hybrid between a Notary and a Licensed Attorney providing services to and acting on behalf of the Individual Principal who is a Client of their law practice.  For technical purposes, we aim to customize the technology to allow for a range of Fiduciary Agent and Individual Principal pair-wise relationships, while continuing to support, reflect and assume the full customary set of fiduciary duties exist as a legal foundation of the integrated business, legal and technical dimensions of our working prototype.  
+
 
 ## Common Web Context: OAuth 2 
 
@@ -46,27 +65,8 @@ For many reasons it is useful and instructive to understand the roles and sequen
 ### Implicit Authorization Flow 
 
 <img width="615" alt="Fig4-ImplicitFlow.png" src="https://raw.githubusercontent.com/mitmedialab/CoreID/master/diagrams/Fig4-ImplicitFlow.png">
-	
 
-
-## Example Roles of Legal/Business Entities
-
-The following exampes illustrate how to map functions, actions and other events to business and/or legal roles of "entities" for this type of diagram: 
-
-* Roles: Consultant; Accountant; Payroll, etc from [http://www.agilemodeling.com/style/activityDiagram.htm](http://www.agilemodeling.com/style/activityDiagram.htm):
-
-<img src="https://github.com/mitmedialab/CoreID/blob/master/diagrams/expenses.png">
-
-* Roles: Customer; Sales; Legal; etc from [http://www.modernanalyst.com/Careers/InterviewQuestions/tabid/128/ID/1804/What-is-a-Swimlane-Diagram.aspx](http://www.modernanalyst.com/Careers/InterviewQuestions/tabid/128/ID/1804/What-is-a-Swimlane-Diagram.aspx)
-
-<img src="https://github.com/mitmedialab/CoreID/blob/master/diagrams/sales.png">
-
-*  Roles: Faculty Advisor, Student; Admin; etc, from [https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760](https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760): 
-
-* Roles: Faculty Advisor, Student; Admin; etc, from [https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760](https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760): 
-
-<img src="https://github.com/mitmedialab/CoreID/blob/master/diagrams/registration.png">
-
+-------------
 
 Now consider the following ["User Managed Access" diagram](https://www.websequencediagrams.com/files/render?link=gnYlOf_cwh605AwcO-9i): 
 
