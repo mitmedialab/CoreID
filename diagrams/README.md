@@ -9,7 +9,23 @@ So - we'd expect something including roles like:
 * Third party (or merchant or seller, etc); 
 * App provider (lawyer or credit union etc)
 
+The following excerpt is an example of how Massachusetts Legal Hackers has specifically attempted to apply business/legal role based designations to a scenarior of a few use cases involving:
+
+>  **[2017 April 25 LegalHackNight Project Notes](https://github.com/MassachusettsLegalHackers/BCID/wiki/2017-April-25-LegalHackNight-ProjectNotes)**
+
+> The third hack night of our individual identity prototype series is shaping up to be a big milestone for the project:  We're hoping to have working versions of both the Bitcoin and Ethereum public blockchain implementations sufficiently customized to reflect a commercial "sale of goods" business and technology use case adopted by the group at our first hack of this 5-part series.  This will provide a sound foundation to walk through activities and interactions of each key party and start evaluating the best candidate approaches to establish legal rules, roles, relationships, rights, responsibilities covering the three key players:
+
+> 1. The Individual Principal in their role as a party legally signing contracts and making other authorizations with their own blockchain-based identity by using the App to conduct transactions on the web;
+
+> 2. The Fiduciary Agent in their role as a party who acts on behalf, at the behest and in the best interests of the Individual Principal as their Member or Client, respectively and and who provides or is responsible for platform or other business services in connection with the individual app; and
+
+> 3. The Transacting Third Party user, in their role as a party who legally countersigns contracts and is a relying party on authorizations as a counterparty to transactions conducted by or for the Individual Principal.
+
+> In the use case, the Fiduciary Agent will presumably be a US federally chartered, regulated and insured credit union providing services to and acting on behalf of an Individual Principal who is a Member of the Credit Union.  The Ethereum Stone Paper initial code base assumes the fiduciary is a hybrid between a Notary and a Licensed Attorney providing services to and acting on behalf of the Individual Principal who is a Client of their law practice.  For technical purposes, we aim to customize the technology to allow for a range of Fiduciary Agent and Individual Principal pair-wise relationships, while continuing to support, reflect and assume the full customary set of fiduciary duties exist as a legal foundation of the integrated business, legal and technical dimensions of our working prototype.  
+
 ## Common Web Context: OAuth 2 
+
+For many reasons it is useful and instructive to understand the roles and sequences underlying OAuth 2.  When OAuth 2 (including OpenID Connect, UMA or any other protocol that uses OAuth 2) is part of an identity, authentication, authorization, signature or other use case, it is especially important to be able to identify, link, track and map the relationships between the OAuth 2 related and the Blockchain related roles of each legal or business entity involved in transactions or playing other relevant system roles. Here are some quick snapshorts of the key activity sequences with OAuth 2:  
 
 **Mapping Blockchain-Enabled Identity to Roles and Flows the Common Broader Context of the Open Web**
 
