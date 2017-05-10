@@ -23,8 +23,6 @@ The following exampes illustrate how to map functions, actions and other events 
 
 *  Roles: Faculty Advisor, Student; Admin; etc, from [https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760](https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760): 
 
-* Roles: Faculty Advisor, Student; Admin; etc, from [https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760](https://www.yworks.com/actions/imageviewer.php?img=studentRegistrationColors2.e03efb32.png&album=yfiles&maxWidth=800&maxHeight=760): 
-
 <img src="https://github.com/mitmedialab/CoreID/blob/master/diagrams/registration.png">
 
 The following excerpt is an example of how Massachusetts Legal Hackers has specifically attempted to apply business/legal role based designations to a scenarior of a few use cases involving:
