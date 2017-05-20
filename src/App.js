@@ -42,21 +42,20 @@ class App extends Component {
   renderAttestation () {
     return (
         <div itemscope itemtype='http://schema.org/Person'>
-        <span itemprop='name'>Jane Doe</span>
-        <span itemprop='jobTitle'>Professor</span>
+        <span itemprop='name'>Name:<input /></span>
+        <span itemprop='jobTitle'>jobTitle: <input /></span>
         <div itemprop='address' itemscope itemtype='http://schema.org/PostalAddress'>
-        <span itemprop='streetAddress'>
-        20341 Whitworth Institute
-      405 N. Whitworth
+        <span itemprop='streetAddress'>streetAddress: <input />
       </span>
-        <span itemprop='addressLocality'>Seattle</span>,
-        <span itemprop='addressRegion'>WA</span>
-        <span itemprop='postalCode'>98052</span>
+        <span itemprop='addressLocality'>addressLocality (city): <input /></span>,
+        <span itemprop='addressRegion'>addressRegion (city): <input /></span>
+        <span itemprop='postalCode'>postalCode: <input /></span>
         </div>
-        <span itemprop='telephone'>(425) 123-4567</span>
-        <a href='mailto:jane-doe@xyz.edu' itemprop='email'>
-        jane-doe@xyz.edu</a>
-        <a href='http://www.janedoe.com' itemprop='url'>janedoe.com</a>
+        <span itemprop='telephone'>telephone: <input /></span>
+        <a href='mailto:' itemprop='email'>email:
+        <input />
+        </a>
+        <a href='http://www.janedoe.com' itemprop='url'>url: <input /></a>
         </div>
     )
   }
