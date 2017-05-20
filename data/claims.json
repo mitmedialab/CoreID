@@ -16,6 +16,21 @@
       "validated": false,
       "invalidated": false,
       "payload": {
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Seattle",
+          "addressRegion": "WA",
+          "postalCode": "98052",
+          "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
+        }
+      }
+    },
+    {
+      "signed": false,
+      "rejected": false,
+      "validated": false,
+      "invalidated": false,
+      "payload": {
         "fact": "email",
         "address": "bsmith@example.com"
       }
