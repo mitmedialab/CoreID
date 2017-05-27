@@ -5,4 +5,4 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 
 ## The diagrams included in the docs directory:
 
-1.
+1. Diagram.xml, via draw.io
