@@ -4,6 +4,10 @@ import React, { Component } from 'react';
 import claims from '../data/claims.json'
 import documents from '../data/documents.json'
 
+// NavBar
+var NavBar = React.createFactory(require('./NavBar.js'));
+
+
 console.log(claims, documents)
 
 import logo from './logo.svg';
@@ -63,16 +67,18 @@ class App extends Component {
   render() {
     return (
         <div className='App'>
-        <h1>Core Identity</h1>
-        <h2>Dashboard</h2>
-        <h2>Profile</h2>
-        <h2>Login</h2>
-        <h2>Identity Attributes / Claims</h2>
-        { this.renderClaims() }
-        <h2>Documents</h2>
-        { this.renderDocuments() }
-        <h2>Attestation: Person</h2>
-        { this.renderAttestation() }
+          
+          { NavBar() }
+          <h1>Core Identity</h1>
+          <h2>Dashboard</h2>
+          <h2>Profile</h2>
+          <h2>Login</h2>
+          <h2>Identity Attributes / Claims</h2>
+          { this.renderClaims() }
+          <h2>Documents</h2>
+          { this.renderDocuments() }
+          <h2>Attestation: Person</h2>
+          { this.renderAttestation() }
         </div>
     )
   }
