@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
+//import ReactDOM from 'react-dom';
 
 // Claims
 import claims from '../data/claims.json'
 import documents from '../data/documents.json'
 
+
+// Header
+var Header = React.createFactory(require('./components/Header.js'));
+
+
 // NavBar
-var NavBar = React.createFactory(require('./NavBar.js'));
+var NavBar = React.createFactory(require('./components/NavBar.js'));
 
 
 console.log(claims, documents)
@@ -67,18 +73,21 @@ class App extends Component {
   render() {
     return (
         <div className='App'>
-          
-          { NavBar() }
-          <h1>Core Identity</h1>
-          <h2>Dashboard</h2>
-          <h2>Profile</h2>
-          <h2>Login</h2>
-          <h2>Identity Attributes / Claims</h2>
-          { this.renderClaims() }
-          <h2>Documents</h2>
-          { this.renderDocuments() }
-          <h2>Attestation: Person</h2>
-          { this.renderAttestation() }
+          { Header() }
+          <div class="main">
+            
+            { NavBar() }
+            <h1>Core Identity</h1>
+            <h2>Dashboard</h2>
+            <h2>Profile</h2>
+            <h2>Login</h2>
+            <h2>Identity Attributes / Claims</h2>
+            { this.renderClaims() }
+            <h2>Documents</h2>
+            { this.renderDocuments() }
+            <h2>Attestation: Person</h2>
+            { this.renderAttestation() }
+          </div>
         </div>
     )
   }
