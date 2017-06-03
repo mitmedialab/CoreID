@@ -1,6 +1,24 @@
+body {
+	color: #8e8e93;
+	direction: ltr;
+	overflow-x: hidden;
+	height: 100%;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	background: #f7f7f8;
+	-webkit-font-smoothing: antialiased !important;
+	line-height: 1.42857143
+}
+
 .App {
     display: block;
-    padding: 40px;
+    /*padding: 40px;*/
+}
+
+.main {
+	margin-left: 260px;
 }
 
 h1 {
@@ -9,4 +27,101 @@ h1 {
 
 h2 {
     color: #c96;
+}
+
+/* sidebar */
+#sidebar {
+	width: 260px;
+	float: left;
+	left: 0;
+	bottom: 0;
+	background: #f7f7f8;
+	overflow: visible;
+	z-index: 1051;
+}
+::selection {
+	background: #5F8295;
+	text-shadow: none;
+	color: #ffffff;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1089;
+  border: none;
+  margin-bottom: 0;
+  height: 65px;
+}
+
+.navbar .navbar-header {
+  z-index: 10;
+  background: #ffffff;
+  border-bottom: 1px solid #c8c7cc;
+  position: relative;
+  height: 65px;
+}
+
+.navbar .navbar-header a {
+  line-height: 65px;
+  height: 65px;
+}
+.navbar .navbar-header .navbar-brand {
+  padding: 0 15px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #5b5b60;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased !important;
+}
+.navbar .navbar-header .navbar-brand img {
+  display: inline-block;
+  margin-top: -6px;
+}
+.navbar .navbar-collapse {
+  border-bottom: 1px solid #c8c7cc;
+  border-top: none;
+  background: #ffffff;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+  position: relative;
+}
+
+
+@media (min-width: 992px) {
+	#sidebar {
+		margin-top: 65px
+	}	
+	#sidebar:before {
+		background-color: inherit;
+		border: inherit;
+		bottom: 0;
+		content: "";
+		position: absolute;
+		top: 0;
+		width: inherit;
+		z-index: -1;
+		border-right: 1px solid #c8c7cc
+	}
+	/** styling for app-aside:**/
+	.app-aside div {
+		-webkit-transform: translateZ(0);
+	}
+}
+
+/* ---------------------------------------------------------------------- */
+/*  Top Navbar
+/* ---------------------------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .navbar .navbar-header {
+    width: 260px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar .navbar-header {
+    border-right: 1px solid #c8c7cc;
+  }
 }

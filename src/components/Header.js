@@ -1,16 +1,20 @@
 var React = require('react');
 
+import '../App.css';
+
 var Header = React.createClass({
 
 	render(){
 
 		return (
-			<header class="navbar">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="#/app/dashboard">
-						<h2>CoreID</h2>
+			<header className="navbar">
+				<div className="navbar-header">
+					<a className="navbar-brand" href="#/app/dashboard">
+						CoreID
 					</a>
 				</div>
+				<div className="navbar-collapse"></div>
+
 			</header>
 		);
 	}
