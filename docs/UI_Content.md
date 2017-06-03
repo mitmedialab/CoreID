@@ -1,18 +1,23 @@
-# CoreID Milestones
+# CoreID UI Content
 
 For Human Dynamics group blockchain-backed individual identity open source prototype
 
 
-## The key expected milestones for this project are:
+## UI Content for this project are:
 
-A. Mockups​ and User Flow
+A. External UI Content
+	- CoreID logo (if any)
+	- Font-awesome icons
+	- Themify icons
 
-B. Confirm Content​ and Use Cases
+B. UI Libraries
+	- Bootstrap
+	- Google fonts
 
-C. Informal Mid-Project Demo​ for Feedback
+B. UI React Components
+	- Header
+	- NavBar
+	- Main Dashboard section
+	- Forms
+	- Tables
 
-D. UI for API w/Blockstack
-
-E. Data Model​ and Conceptual Architecture for Analytics
-
-F. Final Demo​: Discussion and Feedback 
