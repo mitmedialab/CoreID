@@ -17,6 +17,24 @@ body {
     /*padding: 40px;*/
 }
 
+#app {
+  height: auto;
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#app .app-content {
+  height: 100%;
+}
+#app .app-content:before, #app .app-content:after {
+  content: " ";
+  display: table;
+}
+#app .app-content:after {
+  clear: both;
+}
+
 .main {
 	margin-left: 260px;
 }
@@ -81,9 +99,10 @@ h2 {
   margin-top: -6px;
 }
 .navbar .navbar-collapse {
+  height: 0px;
   border-bottom: 1px solid #c8c7cc;
   border-top: none;
-  background: #ffffff;
+  background: #ffffff !important;
   padding-left: 15px !important;
   padding-right: 15px !important;
   position: relative;

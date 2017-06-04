@@ -5,7 +5,7 @@ var NavBar = React.createClass({
 	render(){
 
 		return (
-			<div id="sidebar" class="sidebar app-aside">Prelim NavBar Section</div>
+			<div id="navbar" class="sidebar app-aside">Prelim NavBar Section</div>
 		);
 	}
 
