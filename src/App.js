@@ -79,7 +79,7 @@ class App extends Component {
           <div className='app-content'>
             { Header() }
 
-            <div className="main">
+            <div className="main-content">
               { NavBar() }
               
               <h1>Core Identity</h1>

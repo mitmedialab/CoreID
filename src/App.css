@@ -63,6 +63,7 @@ h2 {
 	color: #ffffff;
 }
 
+/* navbar */
 .navbar {
   position: absolute;
   top: 0;
@@ -142,5 +143,45 @@ h2 {
 @media (min-width: 992px) {
   .navbar .navbar-header {
     border-right: 1px solid #c8c7cc;
+  }
+}
+
+/* ---------------------------------------------------------------------- */
+/*  Main Content
+/* ---------------------------------------------------------------------- */
+.main-content {
+  min-height: 100%;
+  position: relative;
+}
+.main-content .container {
+  max-width: none !important;
+  width: 100% !important;
+  display: inline-block;
+}
+.main-content > .container {
+  padding-bottom: 50px;
+}
+@media (min-width: 992px) {
+  .main-content {
+    margin-top: 65px;
+    margin-left: 260px;
+  }
+  .app-navbar-fixed .main-content {
+    margin-top: 0;
+  }
+  .app-navbar-fixed .main-content:before, .app-navbar-fixed .main-content:after {
+    content: " ";
+    display: table;
+  }
+  .app-navbar-fixed .main-content:after {
+    clear: both;
+  }
+  .app-sidebar-closed .main-content {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 991px) {
+  .main-content {
+    padding-top: 65px;
   }
 }
