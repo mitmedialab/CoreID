@@ -137,7 +137,7 @@ h2 {
 
 @media (min-width: 768px) {
   .navbar .navbar-header {
-    width: 260px;
+    /*width: 260px;*/
   }
 }
 @media (min-width: 992px) {
@@ -183,5 +183,112 @@ h2 {
 @media (max-width: 991px) {
   .main-content {
     padding-top: 65px;
+  }
+}
+
+
+/* ---------------------------------------------------------------------- */
+/*  Sidebar
+/* ---------------------------------------------------------------------- */
+#sidebar {
+  width: 260px;
+  float: left;
+  left: 0;
+  bottom: 0;
+  background: #f7f7f8;
+  overflow: visible;
+  z-index: 1051;
+}
+#sidebar > div, #sidebar .sidebar-container {
+  height: 100%;
+}
+.app-sidebar-fixed #sidebar > .sidebar-container {
+  overflow-y: hidden;
+  overflow-x: visible;
+  position: relative;
+}
+.app-mobile #sidebar {
+  overflow: auto;
+}
+#sidebar .wrapper {
+  padding: 20px 15px;
+}
+.app-navbar-fixed.app-sidebar-fixed #sidebar {
+  top: 0;
+}
+#sidebar nav {
+  min-height: 100%;
+}
+@media (min-width: 992px) {
+  #sidebar {
+    margin-top: 65px;
+  }
+}
+@media (min-width: 992px) and (min-width: 992px) {
+  #sidebar:before {
+    background-color: inherit;
+    border: inherit;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    top: 0;
+    width: inherit;
+    z-index: -1;
+    border-right: 1px solid #c8c7cc;
+  }
+}
+@media (min-width: 992px) {
+  #sidebar nav {
+    border-right: 1px solid #c8c7cc;
+  }
+  .app-navbar-fixed #sidebar {
+    margin-top: 0;
+  }
+  .app-sidebar-fixed #sidebar {
+    position: fixed;
+    top: 65px !important;
+    margin-top: 0;
+  }
+  .app-sidebar-fixed #sidebar > div {
+    z-index: 1000;
+  }
+  .app-sidebar-closed #sidebar {
+    width: 70px;
+  }
+}
+@media (max-width: 991px) {
+  #sidebar {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    float: none;
+    -webkit-transform: translate3d(-260px, 0, 0);
+    transform: translate3d(-260px, 0, 0);
+    -moz-transition: -moz-transform 300ms ease 0s;
+    -o-transition: -o-transform 300ms ease 0s;
+    -webkit-transition: -webkit-transform 300ms ease;
+    -webkit-transition-delay: 0s;
+    transition: transform 300ms ease 0s;
+  }
+  #sidebar > div {
+    z-index: 1000;
+  }
+  .app-slide-off #sidebar {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -moz-transition: -moz-transform 300ms ease 0s;
+    -o-transition: -o-transform 300ms ease 0s;
+    -webkit-transition: -webkit-transform 300ms ease;
+    -webkit-transition-delay: 0s;
+    transition: transform 300ms ease 0s;
+  }
+  #sidebar nav {
+    border-right: none !important;
+  }
+  #sidebar > .sidebar-container {
+    overflow-y: hidden;
+    overflow-x: visible;
+    position: relative;
   }
 }
