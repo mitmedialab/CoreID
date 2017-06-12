@@ -30,7 +30,6 @@ Documentation about the front-end UI and UX for an end-user blockchain-enabled i
 |---|---|---|
 | Swimlane Diagram | [File(s)](https://github.com/alexfigtree/CoreID/blob/master/docs/Diagram.md) |  |
 | User Flow  | File(s)  | [#6](https://github.com/alexfigtree/CoreID/issues/6)  |
-| UI Content  | [File(s)](https://github.com/alexfigtree/CoreID/tree/master/src)  | [#7](https://github.com/alexfigtree/CoreID/issues/7)  |
 | Key Use Cases  |  File(s) |  [#18](https://github.com/alexfigtree/CoreID/issues/18) |
 | Data Model  | File(s)  |   |
 | Conceptual Architecture for Analytics |   |   |
@@ -41,26 +40,28 @@ Documentation about the front-end UI and UX for an end-user blockchain-enabled i
 Qualitative software testing and documentation of plan and results
 
 
-| Software Test Plan  | Software Test Results  | 
+| Software Test Plan  | Software Test Results  | Issues  |
 |---|---|
-| Mockup Test Plan | Mockup Test Results   | 
-| Prototype Test Plan | Prototype Test Results   |
+| Mockup Test Plan | Mockup Test Results   |    |
+| Prototype Test Plan | Prototype Test Results   |    |
 
 ### D. Project Demonstrations
 
 Slides and screen video of informal mid-project demo and final demo
 
-| Project Demonstration  | Slides  | Video  |
+| Project Demonstration  | Slides  | Video  | Issues  |
 |---|---|---|
-| Midpoint Project Demo | Slide Deck(s)  | Video(s)  |
-| Final Project Demo | Slide Deck(s)  | Video(s)  |
+| Midpoint Project Demo | Slide Deck(s)  | Video(s)  |   |
+| Final Project Demo | Slide Deck(s)  | Video(s)  |   |
 
 
 ### E. Prototype UI/UX 
 
-* UI: https://github.com/alexfigtree/CoreID/tree/master/src
+| UI/UX  | Assets  | Issues  
+|---|---|---|
+| UI Content | [Files(https://github.com/alexfigtree/CoreID/tree/master/src)  | [#7](https://github.com/alexfigtree/CoreID/issues/7)   |  
+| UX Design | Slide Deck(s)  |  [Files](https://github.com/alexfigtree/CoreID/blob/master/docs/UX_Design.md) |  
 
-* UX: See Architectural Documentation Files and Issues
 
 # General Notes on Project Documentation 
 
