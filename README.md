@@ -51,7 +51,7 @@ Slides and screen video of informal mid-project demo and final demo
 
 | Project Demonstration  | Slides  | Video  | Issues  |
 |---|---|---|---|
-| Midpoint Project Demo | Slide Deck(s)  | Video(s)  |   |
+| Midpoint Project Demo | Slide Deck(s)  | Video(s)  | [#27](https://github.com/alexfigtree/CoreID/issues/27)  |
 | Final Project Demo | Slide Deck(s)  | Video(s)  |   |
 
 
