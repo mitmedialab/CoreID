@@ -16,12 +16,6 @@ Documentation about the front-end UI and UX for an end-user blockchain-enabled i
 
 ### A. Initial Mockups
 
-* 
-* 
-* 
-* 
-* 
-
 | Initial Mockups  | Assets  | Issues  |
 |---|---|---|
 | Dashboard  | [Updated_mockup_5_27_17.png](https://github.com/alexfigtree/CoreID/blob/master/docs/Updated_mockup_5_27_17.png)  |  [#5](https://github.com/alexfigtree/CoreID/issues/5) |
