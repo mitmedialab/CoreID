@@ -35,7 +35,15 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 
 C. Qualitative software testing and documentation of plan and results
 
-D. Slides and screen video of informal mid-project demo and final demo
+D. Project Demonstrations
+
+Slides and screen video of informal mid-project demo and final demo
+
+| Project Demonstration  | Slides  | Video  |
+|---|---|---|
+| Midpoint Project Demo | Slide Deck(s)  | Video(s)  |
+| Final Project Demo | Slide Deck(s)  | Video(s)  |
+
 
 E. UI/UX for the app will be committed to the project GitHub repo
 
