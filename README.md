@@ -60,7 +60,7 @@ Slides and screen video of informal mid-project demo and final demo
 | UI/UX  | Assets  | Issues  
 |---|---|---|
 | UI Content | [Files](https://github.com/alexfigtree/CoreID/tree/master/src)  | [#7](https://github.com/alexfigtree/CoreID/issues/7)   |  
-| UX Design | [Files](https://github.com/alexfigtree/CoreID/blob/master/docs/UX_Design.md) |   |  
+| UX Design | [Files](https://github.com/alexfigtree/CoreID/blob/master/docs/UX_Design.md) |  [#29](https://github.com/alexfigtree/CoreID/issues/29)  |  
 
 
 # General Notes on Project Documentation 
