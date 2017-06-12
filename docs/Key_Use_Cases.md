@@ -3,9 +3,9 @@
 For Human Dynamics group blockchain-backed individual identity open source prototype
 
 
-## Key Use Cases for this application are
+## Identity Verification Use Case
 
-1. Mortgage processing
+## Mortgage Application Use Case
 
-2. Identity verification
+
 
