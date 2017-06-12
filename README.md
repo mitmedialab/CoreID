@@ -43,7 +43,7 @@ Qualitative software testing and documentation of plan and results
 | Software Test Plan  | Software Test Results  | Issues  |
 |---|---|---|
 | Mockup Test Plan | Mockup Test Results   |  [#25](https://github.com/alexfigtree/CoreID/issues/25)   |
-| Prototype Test Plan | Prototype Test Results   |    |
+| Prototype Test Plan | Prototype Test Results   |  [#26](https://github.com/alexfigtree/CoreID/issues/26)  |
 
 ### D. Project Demonstrations
 
