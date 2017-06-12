@@ -41,7 +41,7 @@ Qualitative software testing and documentation of plan and results
 
 
 | Software Test Plan  | Software Test Results  | Issues  |
-|---|---|
+|---|---|---|
 | Mockup Test Plan | Mockup Test Results   |    |
 | Prototype Test Plan | Prototype Test Results   |    |
 
@@ -50,7 +50,7 @@ Qualitative software testing and documentation of plan and results
 Slides and screen video of informal mid-project demo and final demo
 
 | Project Demonstration  | Slides  | Video  | Issues  |
-|---|---|---|
+|---|---|---|---|
 | Midpoint Project Demo | Slide Deck(s)  | Video(s)  |   |
 | Final Project Demo | Slide Deck(s)  | Video(s)  |   |
 
@@ -60,7 +60,7 @@ Slides and screen video of informal mid-project demo and final demo
 | UI/UX  | Assets  | Issues  
 |---|---|---|
 | UI Content | [Files(https://github.com/alexfigtree/CoreID/tree/master/src)  | [#7](https://github.com/alexfigtree/CoreID/issues/7)   |  
-| UX Design | Slide Deck(s)  |  [Files](https://github.com/alexfigtree/CoreID/blob/master/docs/UX_Design.md) |  
+| UX Design | [Files](https://github.com/alexfigtree/CoreID/blob/master/docs/UX_Design.md) |   |  
 
 
 # General Notes on Project Documentation 
