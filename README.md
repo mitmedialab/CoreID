@@ -33,9 +33,17 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 | Conceptual Architecture for Analytics |   |   |
 
 
-C. Qualitative software testing and documentation of plan and results
+### C. Qualitative Software Testing
 
-D. Project Demonstrations
+Qualitative software testing and documentation of plan and results
+
+
+| Software Test Plan  | Software Test Results  | 
+|---|---|
+| Mockup Test Plan | Mockup Test Results   | 
+| Prototype Test Plan | Prototype Test Results   |
+
+### D. Project Demonstrations
 
 Slides and screen video of informal mid-project demo and final demo
 
