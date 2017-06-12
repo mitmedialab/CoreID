@@ -8,19 +8,27 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 `npm install`
 `npm start`
 
-## Upcoming 
+## Documentation
 
 
-1. Front-end UI and UX for an end-user blockchain-enabled individual identity and digital signature prototype application
+Documentation about the front-end UI and UX for an end-user blockchain-enabled individual identity and digital signature prototype application
 
 
-### A. Initial mockups
+### A. Initial Mockups
 
-* Dashboard
-* Document
-* Attestation (and/or Claim)
-* Executing a Signature
-* Verifying a Signature
+* 
+* 
+* 
+* 
+* 
+
+| Initial Mockups  | Assets  | Issues  |
+|---|---|---|
+| Dashboard  | [Updated_mockup_5_27_17.png](https://github.com/alexfigtree/CoreID/blob/master/docs/Updated_mockup_5_27_17.png)  |  [#5](https://github.com/alexfigtree/CoreID/issues/5) |
+| Document  | [File(s)](https://github.com/alexfigtree/CoreID/tree/master/src)  | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
+| Attestations/Claims |  File(s) | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
+| Executing a Signature  | File(s)  | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
+| Verifying a Signature | File(s)  | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
 
 ### B. Architectural Documentation
 
