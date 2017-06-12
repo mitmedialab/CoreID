@@ -10,3 +10,5 @@ Placeholder links to more info on data structures for [Claims](https://github.co
 
 ## Conceptual Architecture:
 
+https://www.draw.io/#Halexfigtree%2FCoreID%2Fmaster%2FInitialDiagram.xml
+
