@@ -22,7 +22,7 @@ Documentation about the front-end UI and UX for an end-user blockchain-enabled i
 | Document  | [File(s)](https://github.com/alexfigtree/CoreID/tree/master/src)  | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
 | Attestations/Claims |  File(s) | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
 | Executing a Signature  | File(s)  | [#23](https://github.com/alexfigtree/CoreID/issues/23)  |
-| Verifying a Signature | File(s)  | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
+| Verifying a Signature | File(s)  | [#24](https://github.com/alexfigtree/CoreID/issues/24)  |
 
 ### B. Architectural Documentation
 
