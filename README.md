@@ -27,7 +27,7 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 | Architectural Documentation  | Assets  | Issues  |
 |---|---|---|
 | User Flow  | File(s)  | [#6](https://github.com/alexfigtree/CoreID/issues/6)  |
-| UI Content  | File(s)  | [#7](https://github.com/alexfigtree/CoreID/issues/7)  |
+| UI Content  | [File(s)](https://github.com/alexfigtree/CoreID/tree/master/src)  | [#7](https://github.com/alexfigtree/CoreID/issues/7)  |
 | Key Use Cases  |  File(s) |   |
 | Data Model  | File(s)  |   |
 | Conceptual Architecture for Analytics |   |   |
@@ -53,7 +53,11 @@ Slides and screen video of informal mid-project demo and final demo
 | Final Project Demo | Slide Deck(s)  | Video(s)  |
 
 
-E. UI/UX for the app will be committed to the project GitHub repo
+### E. Prototype UI/UX 
+
+* UI: https://github.com/alexfigtree/CoreID/tree/master/src
+
+* UX: See Architectural Documentation Files and Issues
 
 2. Documentation:
 Documentation will be included in the project GitHub repository in an agreed format such as slides or doc or the github wiki or github issues. Documentation includes:
