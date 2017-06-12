@@ -10,11 +10,28 @@ For Human Dynamics group blockchain-backed individual identity open source proto
 
 ## Upcoming 
 
+
 1. Front-end UI and UX for an end-user blockchain-enabled individual identity and digital signature prototype application
 
-A. Initial mockups
 
-B. Architectural documentation, including: user flow, UI content, key use cases, data model and conceptual architecture for analytics
+### A. Initial mockups
+
+* Dashboard
+* Document
+* Attestation (and/or Claim)
+* Executing a Signature
+* Verifying a Signature
+
+### B. Architectural Documentation
+
+| Architectural Documentation  | Assets  | Issues  |
+|---|---|---|
+| User Flow  | File(s)  | [#6](https://github.com/alexfigtree/CoreID/issues/6)  |
+| UI Content  | File(s)  | [#7](https://github.com/alexfigtree/CoreID/issues/7)  |
+| Key Use Cases  |  File(s) |   |
+| Data Model  | File(s)  |   |
+| Conceptual Architecture for Analytics |   |   |
+
 
 C. Qualitative software testing and documentation of plan and results
 
