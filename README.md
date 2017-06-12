@@ -32,7 +32,7 @@ Documentation about the front-end UI and UX for an end-user blockchain-enabled i
 | User Flow  | File(s)  | [#6](https://github.com/alexfigtree/CoreID/issues/6)  |
 | Key Use Cases  |  File(s) |  [#18](https://github.com/alexfigtree/CoreID/issues/18) |
 | Data Model  | [File](https://github.com/alexfigtree/CoreID/blob/master/docs/Data_Model_and_Conceptual_Architecture.md#data-model)  |  [#21](https://github.com/alexfigtree/CoreID/issues/21)  |
-| Conceptual Architecture for Analytics |   |   |
+| Conceptual Architecture for Analytics |   |  [#22](https://github.com/alexfigtree/CoreID/issues/22)  |
 
 
 ### C. Qualitative Software Testing
