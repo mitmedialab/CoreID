@@ -7,7 +7,7 @@ var client = new bitcoin.Client({
   pass: 'pass'
 });
 //change the address to the address stored on your bitcoin core instance
-var address = "mjH9KTBnNyzdLifkr6xch5FkXnGdbf27mq"
+var address = "moXeMj2BV4DrqkGoxjt6e6hhQ6FeLHido8"
 var message = "this is one more message"
 var signature1 = ""
 
