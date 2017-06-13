@@ -75,3 +75,4 @@ Documentation will include project diagrams provided by MIT depicting key roles,
 ## Project Demonstrations
 
 The demo slides and screen walkthrough video will show two key actions, namely 1. Digital signatures used to sign legal contracts and notices are publicly verifiable by use of the public key associated with a Bitcoin and/or Ethereum public blockchains address associated with the signer; and 2. Digitally signed contracts and legal notices accessible at a standard URL on the web in the form of human readable pure text files.
+
