@@ -20,8 +20,8 @@ Documentation about the front-end UI and UX for an end-user blockchain-enabled i
 | Initial Mockups  | Assets  | Issues  |
 |---|---|---|
 | Dashboard  | [Updated_mockup_5_27_17.png](https://github.com/alexfigtree/CoreID/blob/master/docs/Updated_mockup_5_27_17.png)  |  [#5](https://github.com/alexfigtree/CoreID/issues/5) |
-| Document  | [Documents_mockup_6_12_17.jpg](https://github.com/alexfigtree/CoreID/blob/master/docs/Documents_mockup_6_12_17.jpg) | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
-| Attestations/Claims |  File(s) | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
+| Document  | [Updated_documents_section_6_15_17.jpg](https://github.com/alexfigtree/CoreID/blob/master/docs/Updated_documents_section_6_15_17.jpg) | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
+| Attestations/Claims | [Updated_documents_section_6_15_17.jpg](https://github.com/alexfigtree/CoreID/blob/master/docs/Updated_documents_section_6_15_17.jpg) | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
 | Executing a Signature  | File(s)  | [#23](https://github.com/alexfigtree/CoreID/issues/23)  |
 | Verifying a Signature | File(s)  | [#24](https://github.com/alexfigtree/CoreID/issues/24)  |
 
