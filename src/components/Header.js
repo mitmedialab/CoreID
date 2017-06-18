@@ -1,24 +1,22 @@
-var React = require('react');
+import React, { Component } from 'react';
 
 import '../App.css';
 
-var Header = React.createClass({
+export default class Header extends Component {
 
-	render(){
+  render(){
 
-		return (
-			<header className="navbar">
-				<div className="navbar-header">
-					<a className="navbar-brand" href="#/app/dashboard">
-						CoreID
-					</a>
-				</div>
-				<div className="navbar-collapse"></div>
+    return (
+	<header className="navbar">
+	<div className="navbar-header">
+	<a className="navbar-brand" href="#/app/dashboard">
+	CoreID
+      </a>
+	</div>
+	<div className="navbar-collapse"></div>
 
-			</header>
-		);
-	}
+	</header>
+    );
+  }
 
-});
-
-module.exports = Header;
+}

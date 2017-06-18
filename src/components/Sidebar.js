@@ -1,10 +1,8 @@
-var React = require('react');
+import React, { Component } from 'react';
 
-var Sidebar = React.createClass({
-
-	render(){
-
-		return (
+export default class Sidebar extends Component {
+  render(){
+    return (
 			<div id='sidebar' className='sidebar app-aside'>
 				<div className='sidebar-container'>
 					<nav>
@@ -134,7 +132,7 @@ var Sidebar = React.createClass({
 							</li>
 
 							<li>
-								<a href="javascript:void(0)">
+								<a href="/logout">
 									<div className="item-content">
 										<div className="item-media">
 											<i className="ti-shift-right"></i>
@@ -150,11 +148,8 @@ var Sidebar = React.createClass({
 
 					</nav>
 
-				</div>	
+				</div>
 			</div>
 		);
-	}
-
-});
-
-module.exports = Sidebar;
+  }
+}
