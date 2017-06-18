@@ -5,19 +5,19 @@ import '../App.css';
 
 export default class Header extends Component {
 
-  render(){
+    render(){
 
-    return (
-	<header className="navbar">
-	<div className="navbar-header">
-	<Link className="navbar-brand" to="/">
-	CoreID
-      </Link>
-	</div>
-	<div className="navbar-collapse"></div>
+        return (
+			<header className="navbar">
+				<div className="navbar-header">
+					<Link className="navbar-brand" to="/">
+						CoreID
+					</Link>
+				</div>
+				<div className="navbar-collapse"></div>
 
-	</header>
-    );
-  }
+			</header>
+        );
+    }
 
 }
