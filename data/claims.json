@@ -1,0 +1,75 @@
+{
+  "payload": [
+    {
+      "signed": false,
+      "rejected": false,
+      "validated": false,
+      "invalidated": false,
+      "payload": {
+        "time": "2017-05-20T18:49:32.725Z",
+        "address": "123 Main St., Cambridge, MA 02139"
+      }
+    },
+    {
+      "signed": true,
+      "rejected": false,
+      "validated": true,
+      "invalidated": false,
+      "time": "2017-05-20T18:49:32.725Z",
+      "payload": {
+        "DateTime": "2010-05-20T18:49:32.725Z",
+        "ColorPref": "#6699cc"
+      }
+    },
+    {
+      "signed": false,
+      "rejected": false,
+      "validated": false,
+      "invalidated": false,
+      "payload": {
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Seattle",
+          "addressRegion": "WA",
+          "postalCode": "98052",
+          "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
+        }
+      }
+    },
+    {
+      "signed": false,
+      "rejected": false,
+      "validated": false,
+      "invalidated": false,
+      "payload": {
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Seattle",
+          "addressRegion": "WA",
+          "postalCode": "98052",
+          "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
+        }
+      }
+    },
+    {
+      "signed": false,
+      "rejected": false,
+      "validated": false,
+      "invalidated": false,
+      "payload": {
+        "fact": "email",
+        "address": "bsmith@example.com"
+      }
+    },
+    {
+      "signed": false,
+      "rejected": false,
+      "validated": false,
+      "invalidated": false,
+      "payload": {
+        "fact": "name",
+        "value": "Bob Smith"
+      }
+    }
+  ]
+}

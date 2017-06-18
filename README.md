@@ -1,21 +1,78 @@
 # CoreID
 
-For MIT Media Lab Human Dynamics group open source prototyping and other research and development related to business, legal and technology dimensions of blockchain-backed individual identity
+For Human Dynamics group blockchain-backed individual identity open source prototype
 
-## CoreID demo
+* First Shared Diagram: https://www.draw.io/#Halexfigtree%2FCoreID%2Fmaster%2FInitialDiagram.xml
 
-For demonstration purposes and relative ease of use we utilize the the Bitcoin Core internal wallet and rpc commands to do all signing within the application. 
+## Getting Started 
+`npm install` 
 
-## Getting Started
+`npm start`
 
-* Download BitCoin Core Binaries: https://bitcoin.org/en/download
+## Documentation
 
-* Unpack and run ./bitcoind with proper configurations based on what you want to do (eg do you want to connect to "mainnet" or the "testnet" or "regtest" if you just want to play around with the tools and not be connected to anything for example?)
 
-* In the home directory you should have .bitcoin/ folder. In it create a bitcoin.conf file if you want to save your default configurations when running ./bitcoind. Since we will be using the rpc functionality you would also need to add your own rpcuser and rpcpassword for use in the rpc. 
+Documentation about the front-end UI and UX for an end-user blockchain-enabled individual identity and digital signature prototype application
 
-* npm install bitcoin. If you do not have npm already installed install it alongside the latest node version.
 
-* For specifications details on the package look here https://www.npmjs.com/package/bitcoin
+### A. Initial Mockups
 
-* If you want to create the rpc calls from scratch you do not need to do npm install bitcoin, but the package makes it easy for you to make calls. There is a signing example in the example folder that uses the bitcoin package.
+| Initial Mockups  | Assets  | Issues  |
+|---|---|---|
+| Dashboard  | [Updated_mockup_5_27_17.png](https://github.com/alexfigtree/CoreID/blob/master/docs/Updated_mockup_5_27_17.png)  |  [#5](https://github.com/alexfigtree/CoreID/issues/5) |
+| Document  | [Create_doc_functionality_mockup_6_15_17.jpg](https://github.com/alexfigtree/CoreID/blob/master/docs/Create_doc_functionality_mockup_6_15_17.jpg) | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
+| Attestations/Claims | [Create_doc_functionality_mockup_6_15_17.jpg](https://github.com/alexfigtree/CoreID/blob/master/docs/Create_doc_functionality_mockup_6_15_17.jpg) | [#5](https://github.com/alexfigtree/CoreID/issues/5)  |
+| Executing a Signature  | File(s)  | [#23](https://github.com/alexfigtree/CoreID/issues/23)  |
+| Verifying a Signature | File(s)  | [#24](https://github.com/alexfigtree/CoreID/issues/24)  |
+
+### B. Architectural Documentation
+
+| Architectural Documentation  | Assets  | Issues  |
+|---|---|---|
+| Swimlane Diagram | [File(s)](https://github.com/alexfigtree/CoreID/blob/master/docs/Diagram.md) | [#19](https://github.com/alexfigtree/CoreID/issues/19)  |
+| User Flow  | File(s)  | [#6](https://github.com/alexfigtree/CoreID/issues/6)  |
+| Key Use Cases  |  File(s) |  [#18](https://github.com/alexfigtree/CoreID/issues/18) |
+| Data Model  | [File](https://github.com/alexfigtree/CoreID/blob/master/docs/Data_Model_and_Conceptual_Architecture.md#data-model)  |  [#21](https://github.com/alexfigtree/CoreID/issues/21)  |
+| Conceptual Architecture for Analytics | File(s) |  [#22](https://github.com/alexfigtree/CoreID/issues/22)  |
+
+
+### C. Qualitative Software Testing
+
+Qualitative software testing and documentation of plan and results
+
+
+| Software Test Plan  | Software Test Results  | Issues  |
+|---|---|---|
+| Mockup Test Plan | Mockup Test Results   |  [#25](https://github.com/alexfigtree/CoreID/issues/25)   |
+| Prototype Test Plan | Prototype Test Results   |  [#26](https://github.com/alexfigtree/CoreID/issues/26)  |
+
+### D. Project Demonstrations
+
+Slides and screen video of informal mid-project demo and final demo
+
+| Project Demonstration  | Slides  | Video  | Issues  |
+|---|---|---|---|
+| Midpoint Project Demo | Slide Deck(s)  | Video(s)  | [#27](https://github.com/alexfigtree/CoreID/issues/27)  |
+| Final Project Demo | Slide Deck(s)  | Video(s)  | [#28](https://github.com/alexfigtree/CoreID/issues/28)  |
+
+
+### E. Prototype UI/UX 
+
+| UI/UX  | Assets  | Issues  
+|---|---|---|
+| UI Content | [Files](https://github.com/alexfigtree/CoreID/blob/master/docs/UI_Content.md)  | [#7](https://github.com/alexfigtree/CoreID/issues/7)   |  
+| UX Design | [Files](https://github.com/alexfigtree/CoreID/blob/master/docs/UX_Design.md) |  [#29](https://github.com/alexfigtree/CoreID/issues/29)  |  
+
+
+# General Notes on Project Documentation 
+
+Documentation will be included in the project GitHub repository in an agreed format such as slides or doc or the github wiki or github issues. Documentation includes:
+
+## Project Diagrams
+
+Documentation will include project diagrams provided by MIT depicting key roles, interactions and workflow of the prototype applications and a brief description of how the UI and UX reflects the information contained in the diagram.
+
+## Project Demonstrations
+
+The demo slides and screen walkthrough video will show two key actions, namely 1. Digital signatures used to sign legal contracts and notices are publicly verifiable by use of the public key associated with a Bitcoin and/or Ethereum public blockchains address associated with the signer; and 2. Digitally signed contracts and legal notices accessible at a standard URL on the web in the form of human readable pure text files.
+
