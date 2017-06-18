@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Sidebar extends Component {
   render(){
@@ -9,7 +10,7 @@ export default class Sidebar extends Component {
 						<ul className="main-navigation-menu">
 
 							<li>
-								<a href="#">
+								 <Link to="/identity">
 									<div className="item-content">
 										<div className="item-media">
 											<i className="ti-user"></i>
@@ -18,17 +19,17 @@ export default class Sidebar extends Component {
 											<span className="title">Identity Attributes</span><i className="icon-arrow"></i>
 										</div>
 									</div>
-								</a>
+								</Link>
 								<ul className="sub-menu">
 									<li>
-										<a href="#">
+										<Link to="/login">
 											<span className="title">Login Form</span>
-										</a>
+										</Link>
 									</li>
 									<li>
-										<a href="#">
+										<Link to="/login">
 											<span className="title">Registration Form</span>
-										</a>
+										</Link>
 									</li>
 									<li>
 										<a href="#">Forgot Password Form</a>
@@ -40,7 +41,7 @@ export default class Sidebar extends Component {
 							</li>
 
 							<li>
-								<a href="#">
+								<Link to="/documents">
 									<div className="item-content">
 										<div className="item-media">
 											<i className="ti-layers-alt"></i>
@@ -49,11 +50,11 @@ export default class Sidebar extends Component {
 											<span className="title ng-scope">Documents</span><i className="icon-arrow"></i>
 										</div>
 									</div>
-								</a>
+								</Link>
 							</li>
 
 							<li>
-								<a href="#">
+								<Link to="/signatures">
 									<div className="item-content">
 										<div className="item-media">
 											<i className="ti-pencil-alt"></i>
@@ -62,7 +63,7 @@ export default class Sidebar extends Component {
 											<span className="title">Signatures</span><i className="icon-arrow"></i>
 										</div>
 									</div>
-								</a>
+								</Link>
 							</li>
 
 							<li>

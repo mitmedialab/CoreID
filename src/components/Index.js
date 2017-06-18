@@ -4,9 +4,9 @@ import claims from '../../data/claims.json';
 import documents from '../../data/documents.json';
 console.log(claims, documents);
 
-import Sidebar from './Sidebar.js';
-import Header from'./Header.js';
-import NavBar from './NavBar.js';
+import Sidebar from './Sidebar';
+import Header from'./Header';
+import NavBar from './NavBar';
 
 import logo from '../logo.svg';
 import '../App.css';
@@ -14,17 +14,8 @@ import '../themify-icons/themify-icons.css';
 
 export default class Index extends Component {
   render() {
-    console.log('render()')
     return (
-        <div id='app' className='App'>
-
-          <Sidebar/>
-          <div className='app-content'>
-            <Header/>
-
-            <div className="main-content">
-              <NavBar/>
-
+         <div>
               <h1>Core Identity</h1>
               <h2>Dashboard</h2>
               <h2>Profile</h2>
@@ -35,9 +26,6 @@ export default class Index extends Component {
               { this.renderDocuments() }
               <h2>Attestation: Person</h2>
               { this.renderAttestation() }
-            </div>
-          </div>
-
         </div>
     )
   }

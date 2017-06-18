@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import '../App.css';
 
@@ -9,9 +10,9 @@ export default class Header extends Component {
     return (
 	<header className="navbar">
 	<div className="navbar-header">
-	<a className="navbar-brand" href="#/app/dashboard">
+	<Link className="navbar-brand" to="/">
 	CoreID
-      </a>
+      </Link>
 	</div>
 	<div className="navbar-collapse"></div>
 
