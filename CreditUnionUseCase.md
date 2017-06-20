@@ -26,3 +26,7 @@ For this Demo the core flow actions are under active consideration.  The top cur
 * Alice will request, receive and verify the digital signature of Bill on a bill of sale in JSON format for a used car;
 * Charlie will request, receive and verify the digital signature of Alice on a mortgage loan contract in PDF format;
 * Bob will request, receive and verify current checking account deposits of Alice in JSON format after Alice consents and Charlie verifies the data with a digital signature
+
+# More Info
+
+For more information, see: https://github.com/alexfigtree/CoreID/wiki/Content-and-Actions-Model
